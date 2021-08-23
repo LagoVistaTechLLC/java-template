@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		<h1>Customer List</h1>
+		<ul>
+			<!-- block Customer -->
+			<li>
+				<b>{Customer Name}</b> {Phone} / {Cell}
+				<!-- block Has Children -->
+					<ul>
+					<!-- block Contact -->
+						<li><i>{Contact Name}</i> {Phone} / {Cell}</li>
+					<!-- /block Contact -->
+					</ul>
+				<!-- /block Has Children -->
+			</li>
+			<!-- /block Customer -->
+		</ul>
+	</body>
+</html>
