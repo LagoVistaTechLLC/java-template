@@ -5,6 +5,13 @@
 	<groupId>com.lagovistatech</groupId>
 	<artifactId>template</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>Lago Vista Technologies LLC Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/LagoVistaTechLLC/java-template</url>
+		</repository>
+	</distributionManagement>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
