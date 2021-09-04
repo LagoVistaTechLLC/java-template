@@ -17,7 +17,7 @@ You should have received a copy of the GNU Affero General Public License along w
 
 The following highlights the architecture of the template engine.
 
-![](./documents/Class Diagram.svg)
+![](documents/Class Diagram.svg)
 
 ## Document Composition
 
