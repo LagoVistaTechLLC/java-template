@@ -18,9 +18,9 @@
 */
 package com.lagovistatech.template.internal.tests;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import com.lagovistatech.Helpers;
 import com.lagovistatech.template.Document;

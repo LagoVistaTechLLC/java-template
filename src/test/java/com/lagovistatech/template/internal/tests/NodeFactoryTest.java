@@ -18,12 +18,12 @@
 */
 package com.lagovistatech.template.internal.tests;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
-import org.junit.Test;
 
 import com.lagovistatech.template.Node;
 import com.lagovistatech.template.internal.BlockNodeImp;
