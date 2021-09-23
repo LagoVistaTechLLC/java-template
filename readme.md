@@ -17,13 +17,13 @@ You should have received a copy of the GNU Affero General Public License along w
 
 The following highlights the architecture of the template engine.
 
-![](./documents/Class Diagram.svg)
+![](https://raw.githubusercontent.com/LagoVistaTechLLC/java-template/ad184621ce3eae3554cc612e1056244cceec7efb/documents/Class%20Diagram.svg)
 
 ## Document Composition
 
 Documents are made up of three types of nodes: blocks, static text, and variables.  The first node encountered is the root and start of the document.  This can be any type of node.  All node have a "next node", and operate in a linear fashion.  Each node can find its preceding/parent node as the parent is defined for it.
 
-![](./documents/Nodes and Blocks.svg)
+![](https://raw.githubusercontent.com/LagoVistaTechLLC/java-template/ad184621ce3eae3554cc612e1056244cceec7efb/documents/Nodes%20and%20Blocks.svg)
 
 One note about the above diagram, a node can be any type - static, variable, or block.  **But note that only blocks have children.**
 
